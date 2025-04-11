@@ -2,7 +2,7 @@ import pymongo
 from pymongo import MongoClient
 
 client = MongoClient()
-client = pymongo.MongoClient('mongodb+srv://admin:admin@cluster0.az8ndtf.mongodb.net/')
+client = pymongo.MongoClient('mongo connection here')
 db = client['senac3']
 articles = db.articles
 
